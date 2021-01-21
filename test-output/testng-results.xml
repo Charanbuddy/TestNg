@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="1" ignored="0" total="15" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13452" started-at="2021-01-20T15:14:33Z" finished-at="2021-01-20T15:14:47Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestNg13.tc8()[pri:0, instance:org.task.TestNg13@4445629]" name="tc8" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc9()[pri:0, instance:org.task.TestNg13@4445629]" name="tc9" class="org.task.TestNg13"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="TestNg13.tc10()[pri:8, instance:org.task.TestNg13@4445629]" name="tc10" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc11()[pri:9, instance:org.task.TestNg13@4445629]" name="tc11" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc12()[pri:10, instance:org.task.TestNg13@4445629]" name="tc12" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc7()[pri:7, instance:org.task.TestNg13@4445629]" name="tc7" class="org.task.TestNg13"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="TestNg13.tc0()[pri:-1, instance:org.task.TestNg13@4445629]" name="tc0" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc1()[pri:0, instance:org.task.TestNg13@4445629]" name="tc1" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc2()[pri:1, instance:org.task.TestNg13@4445629]" name="tc2" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc3()[pri:3, instance:org.task.TestNg13@4445629]" name="tc3" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc4()[pri:4, instance:org.task.TestNg13@4445629]" name="tc4" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc5()[pri:5, instance:org.task.TestNg13@4445629]" name="tc5" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc6()[pri:6, instance:org.task.TestNg13@4445629]" name="tc6" class="org.task.TestNg13"/>
+        <method signature="TestNg13.tc7()[pri:7, instance:org.task.TestNg13@4445629]" name="tc7" class="org.task.TestNg13"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="13452" started-at="2021-01-20T15:14:33Z" finished-at="2021-01-20T15:14:47Z">
+      <class name="org.task.TestNg13">
+        <test-method status="PASS" signature="tc0()[pri:-1, instance:org.task.TestNg13@4445629]" name="tc0" duration-ms="6317" started-at="2021-01-20T15:14:33Z" finished-at="2021-01-20T15:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc0 -->
+        <test-method status="PASS" signature="tc1()[pri:0, instance:org.task.TestNg13@4445629]" name="tc1" duration-ms="4881" started-at="2021-01-20T15:14:39Z" finished-at="2021-01-20T15:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1 -->
+        <test-method status="PASS" signature="tc8()[pri:0, instance:org.task.TestNg13@4445629]" name="tc8" duration-ms="136" started-at="2021-01-20T15:14:44Z" finished-at="2021-01-20T15:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8 -->
+        <test-method status="PASS" signature="tc9()[pri:0, instance:org.task.TestNg13@4445629]" name="tc9" duration-ms="75" started-at="2021-01-20T15:14:44Z" finished-at="2021-01-20T15:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc9 -->
+        <test-method status="PASS" signature="tc2()[pri:1, instance:org.task.TestNg13@4445629]" name="tc2" duration-ms="787" started-at="2021-01-20T15:14:45Z" finished-at="2021-01-20T15:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2 -->
+        <test-method status="PASS" signature="tc3()[pri:3, instance:org.task.TestNg13@4445629]" name="tc3" duration-ms="167" started-at="2021-01-20T15:14:45Z" finished-at="2021-01-20T15:14:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3 -->
+        <test-method status="SKIP" signature="tc4()[pri:4, instance:org.task.TestNg13@4445629]" name="tc4" duration-ms="4" started-at="2021-01-20T15:14:45Z" finished-at="2021-01-20T15:14:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[check the Email Id expected [charanbuddy2gmail.com] but found [charanbuddy@gmail.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: check the Email Id expected [charanbuddy2gmail.com] but found [charanbuddy@gmail.com]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.task.TestNg13.tc4(TestNg13.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="SKIP" signature="tc4()[pri:4, instance:org.task.TestNg13@4445629]" name="tc4" duration-ms="3" started-at="2021-01-20T15:14:45Z" finished-at="2021-01-20T15:14:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[check the Email Id expected [charanbuddy2gmail.com] but found [charanbuddy@gmail.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: check the Email Id expected [charanbuddy2gmail.com] but found [charanbuddy@gmail.com]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.task.TestNg13.tc4(TestNg13.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="FAIL" signature="tc4()[pri:4, instance:org.task.TestNg13@4445629]" name="tc4" duration-ms="1" started-at="2021-01-20T15:14:45Z" finished-at="2021-01-20T15:14:45Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[check the Email Id expected [charanbuddy2gmail.com] but found [charanbuddy@gmail.com]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: check the Email Id expected [charanbuddy2gmail.com] but found [charanbuddy@gmail.com]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.task.TestNg13.tc4(TestNg13.java:52)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.retryFailed(Invoker.java:839)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1010)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4 -->
+        <test-method status="PASS" signature="tc5()[pri:5, instance:org.task.TestNg13@4445629]" name="tc5" duration-ms="101" started-at="2021-01-20T15:14:45Z" finished-at="2021-01-20T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5 -->
+        <test-method status="PASS" signature="tc6()[pri:6, instance:org.task.TestNg13@4445629]" name="tc6" duration-ms="265" started-at="2021-01-20T15:14:46Z" finished-at="2021-01-20T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6 -->
+        <test-method status="PASS" signature="tc7()[pri:7, instance:org.task.TestNg13@4445629]" name="tc7" duration-ms="148" started-at="2021-01-20T15:14:46Z" finished-at="2021-01-20T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7 -->
+        <test-method status="PASS" signature="tc10()[pri:8, instance:org.task.TestNg13@4445629]" name="tc10" duration-ms="172" started-at="2021-01-20T15:14:46Z" finished-at="2021-01-20T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10 -->
+        <test-method status="PASS" signature="tc11()[pri:9, instance:org.task.TestNg13@4445629]" name="tc11" duration-ms="239" started-at="2021-01-20T15:14:46Z" finished-at="2021-01-20T15:14:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11 -->
+        <test-method status="PASS" signature="tc12()[pri:10, instance:org.task.TestNg13@4445629]" name="tc12" duration-ms="107" started-at="2021-01-20T15:14:46Z" finished-at="2021-01-20T15:14:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12 -->
+      </class> <!-- org.task.TestNg13 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
