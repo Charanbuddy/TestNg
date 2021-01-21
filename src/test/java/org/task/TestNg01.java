@@ -59,7 +59,7 @@ public class TestNg01 extends BaseMethods {
 		txtEmail.sendKeys(readFromExcel(1, 0));
 		String emailAttribute = txtEmail.getAttribute("value");
 		Assert.assertEquals(emailAttribute, "Ramkumar", "Check the given MailID");
-
+		
 		driver.findElement(By.id("pass")).sendKeys(readFromExcel(1, 1));
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(3000);
